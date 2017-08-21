@@ -106,6 +106,19 @@
     </dependency>
   </dependencies>
   
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CVMP4257-releases</name>
+        <url>http://10.20.126.40:8889/artifactory/Spring</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CVMP4257-snapshots</name>
+        <url>http://10.20.126.40:8889/artifactory/Spring</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <build>
   	<finalName>SampleHibernateProj</finalName>
   	<plugins>
